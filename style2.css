@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@200&family=Shadows+Into+Light&display=swap');
+
+
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 101%
+}
+
+.text {
+    position:absolute;
+    top:25%;
+    left:13%;
+    color: black;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+    max-width: 80vw;
+    z-index: 100;
+    text-align: initial;
+}
+.text2 {
+    position: absolute;
+    top: 37%;
+    left: 13%;
+    color: black;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+    max-width: 80vw;
+    z-index: 100;
+    text-align: initial;
+}
+
+.text3 {
+    position: absolute;
+    top: 41%;
+    left: 13%;
+    color: black;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+    max-width: 80vw;
+    z-index: 100;
+    text-align: initial;
+}
+
+.text4 {
+    position: absolute;
+    top: 45%;
+    left: 13%;
+    color: black;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+    max-width: 80vw;
+    z-index: 100;
+    text-align: initial;
+}
+
+.container {
+    width: 110%;
+    height: 100%;
+    background: linear-gradient(#3f87a6 10%, #ebf8e1a2 10%), linear-gradient(to right, #ebf8e100 10%, #c73030 10% 10.2%, #ebf8e100 10.5%);
+    background-size: 100% 25px, 100% 100%;
+    background-repeat: repeat, no-repeat;
+    z-index:0;
+
+    /* Add your background pattern here */
+}
