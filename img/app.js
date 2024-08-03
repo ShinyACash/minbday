@@ -62,6 +62,7 @@ function detecDevice() {
 detecDevice();
 
 var audio = document.getElementById("aud");
+var audio1 = document.getElementById("aud2");
 let isplaying = false;
 function blow() {
     if (isplaying) return;
@@ -74,7 +75,11 @@ function blow() {
     document.getElementById("fl").style.opacity = 0;
 }
 
-audioElement.addEventListener('ended', function () {
-    this.currentTime = 0;
-    this.play();
-}, false);
+function poyo() {
+    audio1.play();
+    document.getElementById("kirb").style.opacity = 0;
+    document.getElementById("kirbo").style.opacity = 1;
+
+}
+
+

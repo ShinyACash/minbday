@@ -31,9 +31,30 @@ h1 {
     height: 10vh;
     top: -1%;
     right: 1%;
-    z-index: 1000;
+    z-index: 1001;
+    opacity: 1;
+
 }
 
+.recap {
+    position: absolute;
+    height: 150vh;
+    max-width: 100vw;
+    top: 340%;
+    /* right: 1%; */
+    left: 30%;
+    z-index: 4;
+    opacity: 1;
+}
+
+.headimg1 {
+    position: fixed;
+    height: 8vh;
+    top: -0.4%;
+    right: 1.5%;
+    z-index: 1000;
+    opacity: 0;
+}
 
 .sparkle1 {
     height: 100px;
@@ -42,6 +63,7 @@ h1 {
     mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
     position: absolute;
     top: 32%;
+    opacity: 0;
     right: 2%;
 }
 .sparkle2 {
@@ -51,6 +73,7 @@ h1 {
     mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
     position: absolute;
     top: 31%;
+    opacity: 0;
     right: 6%;
 }
 .sparkle3 {
@@ -60,6 +83,7 @@ h1 {
     mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
     position: absolute;
     top: 47%;
+    opacity: 0;
     right: 56%;
 }
 
@@ -71,6 +95,65 @@ h1 {
     position: absolute;
     top: 212%;
     right: 48.5%;
+    opacity: 0;
+}
+
+.sparkle5 {
+    height: 80px;
+    width: 80px;
+    background: rgb(173 137 118);
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
+    position: absolute;
+    top: 315%;
+    right: 48.5%;
+    opacity: 0;
+}
+
+.sparkle6 {
+    height: 100px;
+    width: 80px;
+    background: white;
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
+    position: absolute;
+    top: 335%;
+    right: 15.5%;
+    opacity: 0;
+}
+
+.sparkle7 {
+    height: 100px;
+    width: 90px;
+    background: white;
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
+    position: absolute;
+    z-index: 5;
+    top: 375%;
+    right: 75.5%;
+    opacity: 0;
+}
+
+.sparkle8 {
+    height: 80px;
+    width: 80px;
+    background: white;
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
+    position: absolute;
+    opacity: 0;
+    top: 405%;
+    z-index: 5;
+    right: 15.5%;
+}
+
+.sparkle9 {
+    height: 120px;
+    width: 80px;
+    background: white;
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
+    position: absolute;
+    top: 440%;
+    z-index: 5;
+    opacity: 0;
+    right: 87.5%;
 }
 
 
@@ -147,6 +230,20 @@ h1 {
     color: rgb(142, 56, 93);
 }
 
+.head7 {
+    font-family: 'Kalnia', serif;
+    font-weight: 400;
+    font-size: 4.5vw;
+    position: absolute;
+    text-align: center;
+    top: 300%;
+    left: 15%;
+    z-index: 3;
+    opacity: 0;
+    pointer-events: none;
+    color: rgb(173 137 118);
+}
+
 .p2 {
     font-family: "Rokkitt", serif;
     font-optical-sizing: auto;
@@ -213,6 +310,16 @@ canvas {
     top: -2%;
     z-index: 1000;
     background: rgb(255 209 223);
+}
+
+.c2 {
+    width: 101vw;
+    height: 145vh;
+    position: absolute;
+    left: -1%;
+    top: 350%;
+    z-index: 1;
+    background: rgb(224 203 196);
 }
 
 ::-webkit-scrollbar {
