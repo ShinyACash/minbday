@@ -98,6 +98,28 @@ h1 {
     opacity: 0;
 }
 
+.sparkle10 {
+    height: 80px;
+    width: 80px;
+    background: rgb(142, 56, 93);
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
+    position: absolute;
+    top: 520%;
+    right: 48.5%;
+    opacity: 0;
+}
+
+.sparkle11 {
+    height: 80px;
+    width: 80px;
+    background: rgb(142, 56, 93);
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000% / 99.5% 99.5%;
+    position: absolute;
+    top: 648%;
+    right: 48.5%;
+    opacity: 0;
+}
+
 .sparkle5 {
     height: 80px;
     width: 80px;
@@ -202,6 +224,22 @@ h1 {
     color: rgb(208, 173, 188);
 }
 
+.head10 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    position: absolute;
+    text-align: center;
+    top: 783%;
+    left: 5px;
+    z-index: 6;
+    transform: rotate(6deg);
+    z-index: 6;
+    pointer-events: none;
+    color: rgb(56 43 49);
+}
+
 .head5 {
     font-family: 'Kalnia', serif;
     font-weight: 400;
@@ -244,6 +282,34 @@ h1 {
     color: rgb(173 137 118);
 }
 
+.head8 {
+    font-family: 'Kalnia', serif;
+    font-weight: 400;
+    font-size: 4.5vw;
+    position: absolute;
+    text-align: center;
+    top: 503%;
+    left: 29%;
+    z-index: 3;
+    opacity: 0;
+    pointer-events: none;
+    color: rgb(142, 56, 93);
+}
+
+.head9 {
+    font-family: 'Kalnia', serif;
+    font-weight: 400;
+    font-size: 4.5vw;
+    position: absolute;
+    text-align: center;
+    top: 635%;
+    left: 33%;
+    z-index: 3;
+    opacity: 0;
+    pointer-events: none;
+    color: rgb(142, 56, 93);
+}
+
 .p2 {
     font-family: "Rokkitt", serif;
     font-optical-sizing: auto;
@@ -256,6 +322,22 @@ h1 {
     z-index: 4;
     left: 16%;
     max-width: 70vw;
+    pointer-events: none;
+    color: rgb(185, 122, 149);
+}
+
+.p3 {
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
+    position: absolute;
+    text-align: initial;
+    top: 530%;
+    z-index: 4;
+    left: 12%;
+    max-width: 80vw;
     pointer-events: none;
     color: rgb(185, 122, 149);
 }
@@ -320,6 +402,26 @@ canvas {
     top: 350%;
     z-index: 1;
     background: rgb(224 203 196);
+}
+
+.c3 {
+    width: 101vw;
+    height: 145vh;
+    position: absolute;
+    left: -1%;
+    top: 580%;
+    z-index: 1;
+    overflow: hidden;
+    background: rgb(49, 32, 27);
+}
+
+.dannie {
+    position: absolute;
+    top: 659%;
+    overflow: hidden;
+    left: -0px;
+    z-index: 5;
+    max-width: 100vw;
 }
 
 ::-webkit-scrollbar {
